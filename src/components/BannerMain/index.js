@@ -16,7 +16,8 @@ export default function BannerMain({
   url,
 }) {
   const youTubeID = getYouTubeId(url);
-  const bgUrl = `https://img.youtube.com/vi/${youTubeID}/maxresdefault.jpg`;
+  // const bgUrl = `https://img.youtube.com/vi/${youTubeID}/maxresdefault.jpg`;
+  const bgUrl = `https://img.freepik.com/vetores-gratis/padrao-sem-emenda-de-pele-de-onca_37925-806.jpg?size=626&ext=jpg`;
 
   return (
     <BannerMainContainer backgroundImage={bgUrl}>
